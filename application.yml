@@ -1,5 +1,8 @@
-    eureka:
-      client:
-        service-url:
-          defaultZone: http://localhost:8761/eureka/  # Ensure Eureka server URL is correct
+spring:
+  application:
+    name: Config-default
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/  # Ensure Eureka server URL is correct
 
